@@ -78,8 +78,8 @@ h1{
     display: flex;
 }
 
-.col{
-    flex-shrink: 0;
+.col_full{
+    flex-basis: 100%;
 }
 
 .flex_col{
@@ -170,33 +170,52 @@ main{
 
 /* -------------HERO-------------------------------------------------------------- */
 
+
+
+.hero{
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(../img/slider2-1_1576535341.jpg);
+    background-size: cover;
+}
+
 .containermax{
     padding: 0 80px;
     height: 100%;
 }
 
-.hero{
-    height: 100vh;
-    background-color: aquamarine;
+.containersmall{
+    min-height: auto;
+    margin-bottom: 0;
+    margin-top: auto;
 }
+
 
 .titolo{
     color: white;
 }
 
 .row_hero{
-    align-items: center;
+    align-content: flex-end;
     flex-wrap: wrap;
     height: 100%;
-    gap: 24px;
-    padding: auto 0;
+    margin-bottom: auto;
 }
 
-.hero article{
-
+.carusell{
+    padding: 24px 0;
+    align-self: flex-end;
+    height: 100%;
+    margin-top: 100%;
 }
 
+.carusell .icon{
+    font-size: 14px;
+}
 
+.carusell :first-child{
+    padding-left: 0;
+}
 
 
 /* -----------------------------------------------------------------------------------------------------------
