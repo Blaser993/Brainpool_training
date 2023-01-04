@@ -56,6 +56,12 @@ img{
     display: inline-block;
 }
 
+h1{
+    font-size: calc(36px + 12vh);
+    line-height: 1.1em;
+    font-weight: 900;
+}
+
 
 
 
@@ -80,8 +86,6 @@ img{
     display: flex;
     flex-direction: column;
 }
-
-
 
 
 
@@ -138,8 +142,6 @@ header .flex_row{
 
 
 
-
-
 /* -----------------------------------------------------------------------------------------------------------
                                     MAIN
 ------------------------------------------------------------------------------------------------------------------- */
@@ -148,12 +150,50 @@ main{
     min-height: 1000px;
 }
 
+.button{
+    color: black;
+    font-size: 22px;
+    padding: 12px 12px;
+    font-weight: 600;
+    margin: 24px 0;
+    display: inline-block;
+}
+
+.button-primary{
+    background-color:gold ;
+}
+
+.button-secondary{
+    background-color:rgb(255, 255, 255) ;
+}
+
 
 /* -------------HERO-------------------------------------------------------------- */
+
+.containermax{
+    padding: 0 80px;
+    height: 100%;
+}
 
 .hero{
     height: 100vh;
     background-color: aquamarine;
+}
+
+.titolo{
+    color: white;
+}
+
+.row_hero{
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 24px;
+    padding: auto 0;
+}
+
+.hero article{
+
 }
 
 
@@ -177,5 +217,5 @@ main{
 
 .debug{
     border: dashed 3px palevioletred;
-    padding: 12px;
+    -padding: 12px;
 }
