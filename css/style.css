@@ -32,6 +32,32 @@
     font-family: 'Lato', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol,
+li,
+menu{
+    list-style: none;
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    min-height: 28px;
+    max-height: 100%;
+    display: inline-block;
+}
+
+
+
 
 /* -----------------------------------------------------------------------------------------------------------
                                     LAYOUT
@@ -42,6 +68,14 @@
     margin: 0 auto;
 }
 
+.flex_row{
+    display: flex;
+}
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -50,10 +84,76 @@
 /* -----------------------------------------------------------------------------------------------------------
                                     HEADER
 ------------------------------------------------------------------------------------------------------------------- */
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 90%);
+    padding: 24px;
+    color: white;
+}
+
+header .flex_row{
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    align-self: flex-end;
+}
+
+.spacing_click{
+    padding: 16px;
+}
+
+.icon{
+    font-size: 28px;
+
+}
+
+.icon_little{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.icon_enfatized{
+    color:gold;
+}
+
+.icon_desabled{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.vertical_line{
+    color: gold;
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+
+
 
 /* -----------------------------------------------------------------------------------------------------------
                                     MAIN
 ------------------------------------------------------------------------------------------------------------------- */
+
+main{
+    min-height: 1000px;
+}
+
+
+/* -------------HERO-------------------------------------------------------------- */
+
+.hero{
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+
+
 
 /* -----------------------------------------------------------------------------------------------------------
                                     FOOTER
