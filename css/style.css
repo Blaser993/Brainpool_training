@@ -83,6 +83,23 @@ h1{
     flex-basis: 100%;
 }
 
+.col80{
+    flex-basis: 80%;
+}
+
+
+.col60{
+    flex-basis: 60%;
+}
+
+.col50{
+    flex-basis: 50%;
+}
+
+.col40{
+    flex-basis: 40%;
+}
+
 .col2{
     flex-basis: calc(100% *(2/12));
 }
@@ -273,6 +290,24 @@ main{
 .footer{
     background-color: black;
     color: white;
+}
+
+.footer .flex_row{
+    justify-content: center;
+}
+
+.footer .flex_col{
+    align-items: flex-start;
+}
+
+
+.footer h4,
+.footer .flex_col{
+    text-align: left;
+}
+
+.footer figure{
+    text-align: right;
 }
 
 
