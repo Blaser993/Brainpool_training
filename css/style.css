@@ -300,6 +300,9 @@ main{
     align-items: flex-start;
 }
 
+input{
+    display: inline-block;
+}
 
 .footer h4,
 .footer .flex_col{
@@ -308,6 +311,10 @@ main{
 
 .footer figure{
     text-align: right;
+}
+
+.svg_fut{
+    max-height: 40%;
 }
 
 
