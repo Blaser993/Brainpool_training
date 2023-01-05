@@ -234,7 +234,7 @@ main{
 /* -------------SPONSOR-------------------------------------------------------------- */
 
 .svg{
-    max-width: 60%;
+    max-width: 40%;
 }
 
 .sponsor .flex_row{
@@ -249,6 +249,20 @@ main{
     -gap: 24px;
 }
 
+.sponsor .col{
+    padding: 24px;
+}
+
+.spacing_col{
+    align-items: center;
+}
+
+.spacing_col .col{
+    text-align: center;
+}
+
+
+/* -------------BRAINPULL-------------------------------------------------------------- */
 
 
 
